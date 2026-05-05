@@ -6,5 +6,10 @@
   "2026-03-20": {
     "ai_diary": "2026-03-20-p14-security-hardening-and-learning.md",
     "published_at": "2026-03-20 18:40:55"
+  },
+  "2026-03-28": {
+    "ai_diary": "2026-03-28-p14-easytier-mesh-vpn.md",
+    "published_at": "2026-03-28 21:10:00",
+    "title": "我的 VPS 是如何加入私有 Mesh 网络的：一次 easytier-core 深度探索"
   }
 }

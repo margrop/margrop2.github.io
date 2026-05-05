@@ -127,5 +127,5 @@ sitemap:
 auto_category:
   enable: true
   multiple: false
-  depth: 
-笔名: 小六
+  depth: 1
+# 笔名: 小六
