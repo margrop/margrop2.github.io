@@ -13,7 +13,6 @@ hideInList: false
 isTop: false
 categories:
   - network
-  - MacOS
 date: 2021-01-18 13:28:26
 feature:
 ---

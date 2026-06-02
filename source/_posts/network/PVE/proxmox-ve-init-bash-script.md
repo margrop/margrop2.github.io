@@ -15,7 +15,6 @@ hideInList: false
 isTop: false
 categories:
   - network
-  - PVE
 date: 2021-01-22 16:42:46
 feature:
 ---

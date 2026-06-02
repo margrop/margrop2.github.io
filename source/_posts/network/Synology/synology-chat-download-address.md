@@ -10,7 +10,6 @@ hideInList: false
 isTop: false
 categories:
   - network
-  - Synology
 date: 2021-06-07 08:31:39
 feature:
 ---

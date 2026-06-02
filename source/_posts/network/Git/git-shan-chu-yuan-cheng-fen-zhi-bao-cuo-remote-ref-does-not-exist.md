@@ -6,7 +6,6 @@ hideInList: false
 isTop: false
 categories:
   - network
-  - Git
 date: 2021-08-27 10:48:48
 feature:
 ---

@@ -13,7 +13,6 @@ hideInList: false
 isTop: false
 categories:
   - network
-  - Ubuntu
 date: 2021-01-23 13:43:20
 feature:
 ---

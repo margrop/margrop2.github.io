@@ -10,7 +10,6 @@ hideInList: false
 isTop: false
 categories:
   - network
-  - SmartHome
 date: 2021-05-12 18:12:02
 feature:
 ---

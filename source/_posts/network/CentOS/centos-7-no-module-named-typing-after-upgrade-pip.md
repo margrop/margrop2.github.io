@@ -11,7 +11,6 @@ hideInList: false
 isTop: false
 categories:
   - network
-  - CentOS
 date: 2021-06-16 11:13:46
 feature:
 ---

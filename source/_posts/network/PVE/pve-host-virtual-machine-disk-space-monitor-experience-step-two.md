@@ -13,7 +13,6 @@ hideInList: false
 isTop: false
 categories:
   - network
-  - PVE
 feature:
 ---
 

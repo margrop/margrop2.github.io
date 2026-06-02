@@ -10,7 +10,6 @@ hideInList: false
 isTop: false
 categories:
   - network
-  - router
 date: 2021-02-12 19:43:55
 feature:
 ---

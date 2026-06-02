@@ -12,7 +12,6 @@ hideInList: false
 isTop: false
 categories:
   - network
-  - HomeAssistant
 date: 2021-02-19 10:53:04
 feature:
 ---
