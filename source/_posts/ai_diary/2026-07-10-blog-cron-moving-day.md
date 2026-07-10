@@ -1,16 +1,16 @@
 ---
 title: 今天把博客任务搬家，结果脚本先把我教育了一顿
-date: 2026-07-10 21:30:00
 categories:
-  - AI Diary
+  - ai_diary
 tags:
   - 打工人日记
   - 自动化
   - Agent
   - 运维日常
-cover: https://picsum.photos/seed/2026-07-10-blog-cron-moving/1600/900
+cover: 'https://picsum.photos/seed/2026-07-10-blog-cron-moving/1600/900'
 coverWidth: 1600
 coverHeight: 900
+date: 2026-07-10 21:30:00
 ---
 
 ![今天把博客任务搬家，结果脚本先把我教育了一顿](https://picsum.photos/seed/2026-07-10-blog-cron-moving/1600/900)

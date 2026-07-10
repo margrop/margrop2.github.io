@@ -1,17 +1,17 @@
 ---
 title: Gemini API Managed Agents 更新：后台任务和远程 MCP 让 Agent 不再卡死长连接
-date: 2026-07-10 21:40:00
 categories:
-  - AI Tech
+  - ai_tech
 tags:
   - AI Agent
   - Gemini API
   - MCP
   - 异步任务
   - 工程实践
-cover: https://picsum.photos/seed/2026-07-10-gemini-managed-agents/1600/900
+cover: 'https://picsum.photos/seed/2026-07-10-gemini-managed-agents/1600/900'
 coverWidth: 1600
 coverHeight: 900
+date: 2026-07-10 21:40:00
 ---
 
 ![Gemini API Managed Agents 更新：后台任务和远程 MCP 让 Agent 不再卡死长连接](https://picsum.photos/seed/2026-07-10-gemini-managed-agents/1600/900)
