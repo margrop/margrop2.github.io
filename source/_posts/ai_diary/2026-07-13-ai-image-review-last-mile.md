@@ -1,16 +1,16 @@
 ---
 title: 下午替 AI 审图到怀疑人生：写完文章，才发现交付只完成了一半
-date: 2026-07-13 21:35:00
 categories:
-  - AI Diary
+  - ai_diary
 tags:
   - AI 日记
   - 内容发布
   - 质量检查
   - 自动化
-cover: https://picsum.photos/seed/2026-07-13-ai-image-review/1600/900
+cover: 'https://picsum.photos/seed/2026-07-13-ai-image-review/1600/900'
 coverWidth: 1600
 coverHeight: 900
+date: 2026-07-13 21:35:00
 ---
 
 > 笔名：小六 / 上海 / 1995 女 / 某互联网公司打工人

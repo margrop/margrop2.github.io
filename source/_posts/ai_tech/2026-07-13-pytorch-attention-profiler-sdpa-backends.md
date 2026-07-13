@@ -1,17 +1,17 @@
 ---
 title: PyTorch 注意力性能分析：为什么 SDPA Math 比朴素实现慢 3.7 倍
-date: 2026-07-13 21:40:00
 categories:
-  - AI Tech
+  - ai_tech
 tags:
   - PyTorch
   - Attention
   - GPU 性能分析
   - FlashAttention
   - AI Tech
-cover: https://picsum.photos/seed/2026-07-13-pytorch-attention-profiler/1600/900
+cover: 'https://picsum.photos/seed/2026-07-13-pytorch-attention-profiler/1600/900'
 coverWidth: 1600
 coverHeight: 900
+date: 2026-07-13 21:40:00
 ---
 
 > 笔名：小六 / 上海 / 1995 女 / 某互联网公司工程师
