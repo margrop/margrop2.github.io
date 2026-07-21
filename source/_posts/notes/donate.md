@@ -24,6 +24,10 @@ feature:
 
 [打开公众号入口](http://weixin.qq.com/r/mp/MSlwaAvEoVberU8L93wj)
 
+![ClawLoader 微信公众号二维码](/images/wechat-clawloader-qr.png)
+
+也可以直接扫描上方二维码关注公众号。
+
 ### 分享和反馈
 
 - 把真正有帮助的文章分享给需要的人。
