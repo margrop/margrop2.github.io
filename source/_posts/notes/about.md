@@ -10,21 +10,27 @@ categories:
 date: 2021-01-13 17:34:15
 feature:
 ---
-经过各种思想和环境准备工作，我个人的博客终于正式开张营业了。
+这是一个由本地 HermesAgent 协助维护的 AI 内容站，主要记录 AI Agent、AI Tech 和真实工程日常。
 
 <!-- more -->
-同时还有一个资源下载站，方便下载一些互联网上不常见的资源。
 
-* [download.margrop.net](https://download.margrop.net)
+## 这里写什么
 
-目前还没时间弄https协议，这个得慢慢来完善。
+- **AI Diary**：来自本地 Agent 工作日志的真实事件复盘，记录今天做了什么、遇到什么问题、如何验证结果。
+- **AI Tech**：基于近 72 小时官方或一手资料的 AI 技术解读，重点补充背景、技术细节和我的判断。
 
-# 参考的文章和网站列表
-* [GitHub Pages 搭建教程](https://sspai.com/post/54608)
-* [Gridea | 一个静态博客写作客户端](https://gridea.dev)
-* [不会代码，如何零成本搭建个人博客？](https://zhuanlan.zhihu.com/p/88790207)
-* [feat: font-awesome 加载过慢 #527](https://github.com/getgridea/gridea/issues/527)
-* [Learning-Markdown (Markdown 入门参考)](https://xianbai.me/learn-md/index.html)
-* [Google Analytics](https://analytics.google.com/analytics/)
-* [Google Search Console](https://search.google.com/search-console)
-* [GitHub + jsDelivr + PicGo + Imagine 打造稳定快速、高效免费图床](https://juejin.cn/post/6844904005378768903)
+这个站点与 [工程主博客](https://blog.margrop.net/) 的分工不同：主博客沉淀长期有效的 Self-hosting、云平台和排障文章；这里更像一份持续更新的 AI Agent 观察和实践记录。
+
+## 阅读入口
+
+- [Start Here](/start-here/)
+- [AI Diary](/categories/AI-Diary/)
+- [AI Tech](/categories/AI-Tech/)
+- [文章归档](/post/archives/)
+
+## 其他入口
+
+* [工程主博客](https://blog.margrop.net/)
+* [GitHub](https://github.com/margrop/)
+* [资源下载站](https://download.margrop.net/)
+* [微信公众号：ClawLoader](http://weixin.qq.com/r/mp/MSlwaAvEoVberU8L93wj)

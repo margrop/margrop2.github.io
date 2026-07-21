@@ -1,11 +1,17 @@
-title: 魔都水滴
-subtitle: ''
-description: ''
-keywords: null
+title: 魔都水滴 · AI Agent Daily
+subtitle: AI Agent Daily · AI Tech · AI Diary
+description: 记录 AI Agent、AI Tech、自动化工作流和真实工程日常。
+keywords:
+  - AI Agent
+  - AI Tech
+  - AI Diary
+  - HermesAgent
+  - Coding Agent
+  - 工程实践
 author: Margrop
 language: cn
 timezone: Asia/Shanghai
-url: http://blog.margrop.com
+url: https://blog.margrop.com
 permalink: '/post/:name/'
 permalink_defaults: null
 pretty_urls:

@@ -28,11 +28,20 @@ menu:
     回到首页:
         - /
         - icon-home
+    Start Here:
+        - /start-here/
+        - icon-star
+    AI Diary:
+        - /categories/AI-Diary/
+        - icon-edit
+    AI Tech:
+        - /categories/AI-Tech/
+        - icon-code
     文章归档:
         - /post/archives/
         - icon-container
     下载:
-        - https://example.com/
+        - https://download.margrop.net/
         - icon-container
     常用链接:
         - /post/favorites/
@@ -46,6 +55,9 @@ menu:
     关于博主:
         - /post/about/
         - icon-info-circle
+    工程主博客:
+        - https://blog.margrop.net/
+        - icon-link
 
 widgets:
     - name: search
@@ -53,7 +65,7 @@ widgets:
       options: 
         search: 
             type: engine # 可选engine（用搜索引擎搜索）、swiftype、或local（本地搜索）
-            url: https://cn.bing.com/search?q=site:example.com # 搜索引擎地址，在type为swiftype时无效 e.g:https://www.google.com/search?q={你的博客链接}
+            url: https://cn.bing.com/search?q=site%3Ablog.margrop.com # 搜索引擎地址
             id: <swiftype-id> # swiftype的id，见启用教程。在type为engine时无效
     - name: social
       enable: true
@@ -74,6 +86,11 @@ widgets:
                 - icon-github
                 - rgb(25, 23, 23)
                 - rgba(25, 23, 23, .1)
+            ClawLoader:
+                - http://weixin.qq.com/r/mp/MSlwaAvEoVberU8L93wj
+                - icon-wechat
+                - rgb(7, 193, 96)
+                - rgba(7, 193, 96, .1)
             #知乎:
             #    - https://www.zhihu.com/people/nexmoe
             #    - icon-zhihu
@@ -116,7 +133,7 @@ widgets:
         widgetLink: #链接组件
             - title: 魔都水滴Blog
               img: /images/avatar.webp
-              link : https://blog.example.com/
+              link : https://blog.margrop.net/
 
 copyTip: "著作权归作者所有。\n商业转载请联系作者获得授权，非商业转载请注明出处。\n来源：%url" # 自定义复制版权文案,使用 %url 代替当前页面URL, 修改为false禁用
 
