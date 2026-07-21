@@ -57,7 +57,7 @@ menu:
         - icon-info-circle
     工程主博客:
         - https://blog.margrop.net/
-        - icon-link
+        - icon-home
 
 widgets:
     - name: search
