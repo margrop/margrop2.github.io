@@ -30,13 +30,13 @@ menu:
         - icon-home
     Start Here:
         - /start-here/
-        - icon-star
+        - icon-home
     AI Diary:
-        - /categories/AI-Diary/
-        - icon-edit
+        - /categories/ai-diary/
+        - icon-tags-fill
     AI Tech:
-        - /categories/AI-Tech/
-        - icon-code
+        - /categories/ai-tech/
+        - icon-tag-fill
     文章归档:
         - /post/archives/
         - icon-container
@@ -88,7 +88,7 @@ widgets:
                 - rgba(25, 23, 23, .1)
             ClawLoader:
                 - http://weixin.qq.com/r/mp/MSlwaAvEoVberU8L93wj
-                - icon-wechat
+                - icon-wechat-fill
                 - rgb(7, 193, 96)
                 - rgba(7, 193, 96, .1)
             #知乎:
