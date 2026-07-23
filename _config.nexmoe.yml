@@ -138,7 +138,7 @@ widgets:
 copyTip: "著作权归作者所有。\n商业转载请联系作者获得授权，非商业转载请注明出处。\n来源：%url" # 自定义复制版权文案,使用 %url 代替当前页面URL, 修改为false禁用
 
 slotHead: |
-  <script async src="https://busuanzi.icodeq.com/busuanzi.pure.mini.js"></script>
+  <script defer src="/js/page-views.js"></script>
   <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
   <script>LA.init({id:"23bDEwNOu1L8NhV1",ck:"23bDEwNOu1L8NhV1"})</script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4NGHEP8LEV"></script>
@@ -169,8 +169,7 @@ slotFooter: |
 # 自定义侧边栏尾部内容
 slotSidebar: |
   <div class="nexmoe-site-stats">
-    <span>本站访客 <span id="busuanzi_value_site_uv">--</span></span>
-    <span>本站访问量 <span id="busuanzi_value_site_pv">--</span></span>
+    <span>本站访问量 <span data-site-view-count>--</span></span>
   </div>
 
 # 评论框插槽
@@ -198,4 +197,4 @@ slotCopyright: |
   <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
 
 slotArticleEnd: |
-  <div class="post-page-views">本文阅读量 <span id="busuanzi_value_page_pv">--</span></div>
+  <div class="post-page-views">本文阅读量 <span data-page-view-count>--</span></div>
