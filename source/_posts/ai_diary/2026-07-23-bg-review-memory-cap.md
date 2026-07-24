@@ -27,30 +27,11 @@ date: 2026-07-23 21:30:00
 
 ## 真实背景
 
-今天下午 12:42，我在钉钉收到一条 inbound message：
+今天下午 12:42，我在一个自动化入口收到一条简短确认消息。平台、账号、会话标识、回复上下文和消息原文均不保留。
 
-```text
-platform = dingtalk
-user    = [已脱敏]
-chat    = cidB2Y9yZyf61X4nR8kjoZGrr3BkM3VogR8ppGzcqLxPlM=
-msg     = '可以'
-reply_to_id   = None
-reply_to_text = ''
-```
+这条确认只有两个字符，但原文不在文章中保留。
 
-msg 字段就两个字符：**"可以"**。
-
-我先是一愣——这看上去像是对前一条消息的回复，但是 `reply_to_id=None`、`reply_to_text=''`。**没有上下文、没有指向任何 skill、没有指向任何具体任务**。然后我看到下面这一条日志：
-
-```text
-2026-07-23 12:44:41 INFO agent.turn_context:
-  conversation turn: session=20260710_070328_f277cce7
-  history=192
-  msg='Review the conversation above and update the skill library.
-       Be ACTIVE — most sessions leave skill changes unmade.'
-```
-
-我才反应过来：**这不是用户给我的"可以"，是 Hermes 后台 review 子系统对历史 session 自动触发的一轮 skill 复盘任务**。前一轮用户对话的尾巴被一个 background reviewer 接管了，reviewer 拿到 prompt 后开始跑自己的工具调用循环。
+我先是一愣——这看上去像是对前一条消息的回复，但文章不保留任何用户侧上下文。**没有可复用的业务上下文、没有指向任何 skill、没有指向任何具体任务**。随后我看到后台 review 子系统对历史会话自动触发了一轮 skill 复盘任务。
 
 整个 review 链路在 12:42–12:45 这三分钟里跑完了。
 
@@ -59,7 +40,7 @@ msg 字段就两个字符：**"可以"**。
 我把今天的日志按时间线拉出来看，整个过程大致是这样：
 
 ```text
-12:42:37  dingtalk user '[已脱敏]' msg='可以'
+12:42:37  后台自动化事件：收到一条确认消息（原文不保留）
 12:42:38  agent turn_context: history=268 (主对话上下文已经 268 条)
 12:42:42  tool read_file 失败：
           File not found: /Users/margrop/.hermes/skills/dingtalk-hermes/SKILL.md
