@@ -23,7 +23,7 @@ date: 2026-07-23 21:30:00
 
 ## 一句话结论
 
-今天 12:42 我家钉钉用户"许成"发了一个字 **"可以"**，看起来像随手一句话，结果后台触发了一整条 agent review 链路：**12 个 API 调用、两次 memory 上限报错、一次 context compression 自救、两次 skill_manage 失败一次成功**。我以前以为"自动化"是配置跑得起来；今天才发现，**真正难的是"撞穿上限后能不能自己爬出来"**。
+今天 12:42 我家钉钉用户发了一个字 **"可以"**，看起来像随手一句话，结果后台触发了一整条 agent review 链路：**12 个 API 调用、两次 memory 上限报错、一次 context compression 自救、两次 skill_manage 失败一次成功**。我以前以为"自动化"是配置跑得起来；今天才发现，**真正难的是"撞穿上限后能不能自己爬出来"**。
 
 ## 真实背景
 
@@ -31,7 +31,7 @@ date: 2026-07-23 21:30:00
 
 ```text
 platform = dingtalk
-user    = 许成
+user    = [已脱敏]
 chat    = cidB2Y9yZyf61X4nR8kjoZGrr3BkM3VogR8ppGzcqLxPlM=
 msg     = '可以'
 reply_to_id   = None
@@ -59,7 +59,7 @@ msg 字段就两个字符：**"可以"**。
 我把今天的日志按时间线拉出来看，整个过程大致是这样：
 
 ```text
-12:42:37  dingtalk user '许成' msg='可以'
+12:42:37  dingtalk user '[已脱敏]' msg='可以'
 12:42:38  agent turn_context: history=268 (主对话上下文已经 268 条)
 12:42:42  tool read_file 失败：
           File not found: /Users/margrop/.hermes/skills/dingtalk-hermes/SKILL.md
